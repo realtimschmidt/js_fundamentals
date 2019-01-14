@@ -4,6 +4,11 @@ A collection of articles to pratice JavaScript
 
 ---
 
+## Eloquent JavaScript
+by Marjin Haverbeke: http://eloquentjavascript.net/
+
+---
+
 ## JavaScript Fundamentals
 by Sneha Mishra: https://medium.com/nybles/javacript-fundamentals-52cfafda60a2
 
