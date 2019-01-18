@@ -1,0 +1,15 @@
+{
+  "name": "js_fundamentals",
+  "version": "1.0.0",
+  "description": "A collection of articles to pratice JavaScript",
+  "main": "index.js",
+  "repository": "git@github.com:realtimschmidt/js_fundamentals.git",
+  "author": "realtimschmidt <schmidt.tim.j@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts":{
+    "test":"jest --watch"
+  }
+}
