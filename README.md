@@ -4,6 +4,11 @@ A collection of articles to pratice JavaScript
 
 ---
 
+## How to create a Node.js web app using no external packages
+by Abhinav Pandey: https://medium.freecodecamp.org/a-no-frills-guide-to-node-js-how-to-create-a-node-js-web-app-without-external-packages-a7b480b966d2
+
+---
+
 ## Eloquent JavaScript
 by Marjin Haverbeke: http://eloquentjavascript.net/
 
