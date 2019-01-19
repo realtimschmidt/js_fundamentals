@@ -6,8 +6,31 @@ const makeChessBoard = (boardSize) => {
     return console.log('Enter a postive integer')
   }
 
-  result = board.concat(' # # #\n# # # ')
-  return result
+  for(j = 0; j < boardSize; j++) {
+    let width = ''
+    if (j % 2) {
+      for(i = 0; i < boardSize; i++) {
+        if (i % 2) {
+          width += ' '
+        } else {
+          width += '#'
+        }
+      }
+    } else {
+      for(i = 0; i < boardSize; i++) {
+        if (i % 2) {
+          width += '#'
+        } else {
+          width += ' '
+        }
+      }
+    }
+    if (j < boardSize - 1) {
+      width += '\n'
+    }
+    board += width
+  }
+  return board
 }
 
 module.exports = (size) => {
