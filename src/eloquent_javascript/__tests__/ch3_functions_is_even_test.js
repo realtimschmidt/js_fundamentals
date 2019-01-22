@@ -21,7 +21,7 @@ describe('isEven', () => {
     expect(isEven(value)).toEqual('value must be an integer greater than or equal to 0')
   })
   
-  it('it only takes integers', () => {
+  it('only takes integers', () => {
     value = 5.5
     expect(isEven(value)).toEqual('value must be an integer greater than or equal to 0')
   })
