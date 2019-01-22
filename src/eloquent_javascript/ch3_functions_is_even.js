@@ -1,6 +1,6 @@
 const isEven = (value) => {
   if (value < 0  || !Number.isInteger(value)) {
-    return `value must an integer greater than or equal to 0`
+    return `value must be an integer greater than or equal to 0`
   }
   if (value === 0) {
     return true
