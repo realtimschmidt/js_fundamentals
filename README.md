@@ -11,6 +11,7 @@ by Abhinav Pandey: https://medium.freecodecamp.org/a-no-frills-guide-to-node-js-
 
 ## Eloquent JavaScript
 by Marjin Haverbeke: http://eloquentjavascript.net/
+
 Test suite setup was done with yarn https://yarnpkg.com/en/ and jest https://jestjs.io/
 
 ---
