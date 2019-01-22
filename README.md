@@ -1,6 +1,6 @@
 # JS Fundamental Practice
 
-A collection of articles to pratice JavaScript
+A collection of articles and books to practice JavaScript
 
 ---
 
