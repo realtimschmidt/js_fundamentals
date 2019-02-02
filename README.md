@@ -21,6 +21,11 @@ by Sneha Mishra: https://medium.com/nybles/javacript-fundamentals-52cfafda60a2
 
 ---
 
+## React Tutorial
+https://reactjs.org/tutorial/tutorial.html
+
+---
+
 ## Simplify your JavaScript – Use .map(), .reduce(), and .filter()
 by Etienne Talbot: https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
 
