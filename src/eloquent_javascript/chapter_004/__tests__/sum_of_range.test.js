@@ -21,4 +21,12 @@ describe('sum of range', () => {
     result = 9
     expect(sumOfRange(start, end, increment)).toEqual(result)
   })
+
+  it('returns the sum of number when the start is incremented by 3rd negative argument', () => {
+    increment = -2
+    start = 6
+    end = 2
+    result = 12
+    expect(sumOfRange(start, end, increment)).toEqual(result)
+  })
 })

@@ -1,9 +1,16 @@
 const sumOfRange = (start, end, increment) => {
   let counter = start
   const rangeArr = []
-  while (counter <= end) {
-    rangeArr.push(counter)
-    counter += increment
+  if (start < end) {
+    while (counter <= end) {
+      rangeArr.push(counter)
+      counter += increment
+    }
+  } else {
+    while (counter >= end) {
+      rangeArr.push(counter)
+      counter += increment
+    }
   }
   return rangeArr.reduce((acc, cur) => acc + cur)
 }
