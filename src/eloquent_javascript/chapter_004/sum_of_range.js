@@ -1,13 +1,13 @@
-const sumOfRange = (start, end) => {
+const sumOfRange = (start, end, increment) => {
   let counter = start
   const rangeArr = []
   while (counter <= end) {
     rangeArr.push(counter)
-    counter++
+    counter += increment
   }
-  return rangeArr.reduce((acc, cur) => acc + cur )
+  return rangeArr.reduce((acc, cur) => acc + cur)
 }
 
-module.exports = (start, end) => {
-  return sumOfRange(start, end)
+module.exports = (start, end, increment = 1) => {
+  return sumOfRange(start, end, increment)
 }
