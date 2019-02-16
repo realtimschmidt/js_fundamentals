@@ -8,7 +8,7 @@ describe('sum of range', () => {
   beforeEach(() => {
     start = 1
     end = 5
-    result = [1, 2, 3, 4, 5]
+    result = 15
   })
 
   it('returns an array of numbers from start to finish', () => {

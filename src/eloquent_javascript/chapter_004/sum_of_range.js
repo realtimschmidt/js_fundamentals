@@ -1,11 +1,11 @@
 const sumOfRange = (start, end) => {
   let counter = start
-  const result = []
+  const rangeArr = []
   while (counter <= end) {
-    result.push(counter)
+    rangeArr.push(counter)
     counter++
   }
-  return result
+  return rangeArr.reduce((acc, cur) => acc + cur )
 }
 
 module.exports = (start, end) => {
