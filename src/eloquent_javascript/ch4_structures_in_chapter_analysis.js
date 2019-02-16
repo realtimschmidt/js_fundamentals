@@ -1,3 +1,5 @@
+// consider refactoring loops inside loops at the end of chapter
+
 const analyzeJournal = (journal) => {
   let events = []
   for (let entry of journal) {
