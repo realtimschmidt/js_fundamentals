@@ -16,7 +16,7 @@ module.exports = () => [
   },
   {
     events: [
-      'weeknd',
+      'weekend',
       'cycling',
       'break',
       'peanuts',

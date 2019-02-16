@@ -11,6 +11,6 @@ describe('analyze journal entries', () => {
   })
   
   it('finds each type of event in the journal', () => {
-    expect(analyze(entries())).toEqual(events)
+    expect(analyze(journal)).toEqual(events)
   })
 })
