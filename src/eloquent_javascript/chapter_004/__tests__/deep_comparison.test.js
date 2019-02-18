@@ -2,6 +2,7 @@ const deepCompare = require('../deep_comparison')
 
 let number
 let object
+let notObject
 
 describe('deep comparison', () => {
   beforeEach(() => {
@@ -10,6 +11,7 @@ describe('deep comparison', () => {
       a: 1,
       b: 2
     }
+    notObject = null
   })
 
   it('compares primitives', () => {
@@ -20,5 +22,9 @@ describe('deep comparison', () => {
   it('compares objects', () => {
     expect(deepCompare(object, object)).toBe(true)
     expect(deepCompare(object, {a:1, b:2})).toBe(true)
+  })
+
+  it('handles null differently than objects', () => {
+    expect(deepCompare(notObject, null)).toBe(true)
   })
 })
