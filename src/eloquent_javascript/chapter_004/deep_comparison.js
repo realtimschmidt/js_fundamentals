@@ -1,7 +1,9 @@
 const deepCompare = (first, second) => {
   if (typeof first === "object" && first !== null || typeof second === "object" && second !== null) {
-    console.log(first, second)
-    return first === second
+    if (Object.keys(first).length !== Object.keys(second).length) {
+      return false
+    }
+    // recursive call using Object.keys(obj) to comapare properites
   }
   return first === second
 }

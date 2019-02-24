@@ -21,6 +21,7 @@ describe('deep comparison', () => {
 
   it('compares objects', () => {
     expect(deepCompare(object, object)).toBe(true)
+    expect(deepCompare(object, {a:1, b:2, c:3})).toBe(false)
     expect(deepCompare(object, {a:1, b:2})).toBe(true)
   })
 
