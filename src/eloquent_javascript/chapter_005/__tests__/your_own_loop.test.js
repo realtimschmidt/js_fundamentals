@@ -1,6 +1,18 @@
-//loop(value, test func, update func, body func)
-//loop
-//  if test func(value) true
-//    body func(value)
-//    update func(value)
-//  else return null
+const loop = require('../your_own_loop')
+
+describe('your own loop', () => {
+  let startValue
+  let testFunc
+  let updateFunc
+
+  beforeEach(() => {
+    startValue = 3
+    testFunc = n => n > 0
+    updateFunc = n => n - 1
+    bodyFunc = console.log
+  })
+
+  it('should call body function 3 times', () => {
+    expect(loop(startValue, testFunc, updateFunc, bodyFunc)).toEqual([3,2,1])
+  })
+})
